@@ -14,52 +14,6 @@ public class vistaGame extends javax.swing.JPanel {
         SetImageLabelSecundario(imgCarruselPost, "src/images/InterfazGame/Miniaturas/Embarque/Embarque1.png");
     }
 
-    private int currentImageIndex = 0;
-
-    private String[] imagePaths = {
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque0.png",
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque1.png",
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque2.png",
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque3.png",
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque4.png"
-    };
-
-    private void updateImages() {
-        int preIndex = (currentImageIndex - 1 + imagePaths.length) % imagePaths.length;
-        int postIndex = (currentImageIndex + 1) % imagePaths.length;
-
-        SetImageLabelPrincipal(imgCarruselPrincipal, imagePaths[currentImageIndex]);
-        SetImageLabelSecundario(imgCarruselPre, imagePaths[preIndex]);
-        SetImageLabelSecundario(imgCarruselPost, imagePaths[postIndex]);
-        updateCarruselButtons();
-    }
-
-    private void updateCarruselButtons() {
-        btnCarrusel1.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-        btnCarrusel2.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-        btnCarrusel3.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-        btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-        btnCarrusel5.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-
-        switch (currentImageIndex) {
-            case 0:
-                btnCarrusel1.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-            case 1:
-                btnCarrusel2.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-            case 2:
-                btnCarrusel3.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-            case 3:
-                btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-            case 4:
-                btnCarrusel5.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-        }
-    }
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -110,18 +64,43 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(txtDescription, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 860, 180));
 
         btnCarrusel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png"))); // NOI18N
+        btnCarrusel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnCarrusel1MouseClicked(evt);
+            }
+        });
         jPanel1.add(btnCarrusel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 520, -1, -1));
 
         btnCarrusel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png"))); // NOI18N
+        btnCarrusel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnCarrusel2MouseClicked(evt);
+            }
+        });
         jPanel1.add(btnCarrusel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 520, -1, -1));
 
         btnCarrusel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png"))); // NOI18N
+        btnCarrusel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnCarrusel3MouseClicked(evt);
+            }
+        });
         jPanel1.add(btnCarrusel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 520, -1, -1));
 
         btnCarrusel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png"))); // NOI18N
+        btnCarrusel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnCarrusel4MouseClicked(evt);
+            }
+        });
         jPanel1.add(btnCarrusel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 520, -1, -1));
 
         btnCarrusel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png"))); // NOI18N
+        btnCarrusel5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnCarrusel5MouseClicked(evt);
+            }
+        });
         jPanel1.add(btnCarrusel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 520, -1, -1));
 
         btnCarruselIzquierda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Flecha izquierda.png"))); // NOI18N
@@ -165,6 +144,31 @@ public class vistaGame extends javax.swing.JPanel {
         updateImages();
     }//GEN-LAST:event_btnCarruselDerechaMouseClicked
 
+    private void btnCarrusel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCarrusel1MouseClicked
+        currentImageIndex = 0;
+        updateImages();
+    }//GEN-LAST:event_btnCarrusel1MouseClicked
+
+    private void btnCarrusel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCarrusel2MouseClicked
+        currentImageIndex = 1;
+        updateImages();
+    }//GEN-LAST:event_btnCarrusel2MouseClicked
+
+    private void btnCarrusel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCarrusel3MouseClicked
+        currentImageIndex = 2;
+        updateImages();
+    }//GEN-LAST:event_btnCarrusel3MouseClicked
+
+    private void btnCarrusel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCarrusel4MouseClicked
+        currentImageIndex = 3;
+        updateImages();
+    }//GEN-LAST:event_btnCarrusel4MouseClicked
+
+    private void btnCarrusel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCarrusel5MouseClicked
+        currentImageIndex = 4;
+        updateImages();
+    }//GEN-LAST:event_btnCarrusel5MouseClicked
+
     private void SetImageLabelPrincipal(JLabel labelName, String root) {
         if (labelName.getWidth() == 0 || labelName.getHeight() == 0) {
             labelName.setSize(850, 480);
@@ -185,6 +189,52 @@ public class vistaGame extends javax.swing.JPanel {
         Icon icon = new ImageIcon(image.getImage().getScaledInstance(labelName.getWidth(), labelName.getHeight(), Image.SCALE_DEFAULT));
         labelName.setIcon(icon);
         this.repaint();
+    }
+
+    private int currentImageIndex = 0;
+
+    private String[] imagePaths = {
+        "src/images/InterfazGame/Miniaturas/Embarque/Embarque0.png",
+        "src/images/InterfazGame/Miniaturas/Embarque/Embarque1.png",
+        "src/images/InterfazGame/Miniaturas/Embarque/Embarque2.png",
+        "src/images/InterfazGame/Miniaturas/Embarque/Embarque3.png",
+        "src/images/InterfazGame/Miniaturas/Embarque/Embarque4.png"
+    };
+
+    private void updateImages() {
+        int preIndex = (currentImageIndex - 1 + imagePaths.length) % imagePaths.length;
+        int postIndex = (currentImageIndex + 1) % imagePaths.length;
+
+        SetImageLabelPrincipal(imgCarruselPrincipal, imagePaths[currentImageIndex]);
+        SetImageLabelSecundario(imgCarruselPre, imagePaths[preIndex]);
+        SetImageLabelSecundario(imgCarruselPost, imagePaths[postIndex]);
+        updateCarruselButtons();
+    }
+
+    private void updateCarruselButtons() {
+        btnCarrusel1.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+        btnCarrusel2.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+        btnCarrusel3.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+        btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+        btnCarrusel5.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+
+        switch (currentImageIndex) {
+            case 0:
+                btnCarrusel1.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+            case 1:
+                btnCarrusel2.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+            case 2:
+                btnCarrusel3.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+            case 3:
+                btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+            case 4:
+                btnCarrusel5.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+        }
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
