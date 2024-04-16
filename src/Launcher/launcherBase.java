@@ -8,9 +8,9 @@ public class launcherBase extends javax.swing.JFrame {
     private launcherBase thisFrame;
 
     public launcherBase() {
-        thisFrame = this;  // Guarda la referencia
+        thisFrame = this;
         initComponents();
-        vistaHome vista = new vistaHome(thisFrame);  // Pasa la referencia
+        vistaHome vista = new vistaHome(thisFrame);
         ShowPanel(vista);
     }
 
