@@ -49,6 +49,7 @@ public class vistaHome extends javax.swing.JPanel {
         });
 
         homeBtn0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton0.png"))); // NOI18N
+        homeBtn0.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout homePanel0Layout = new javax.swing.GroupLayout(homePanel0);
         homePanel0.setLayout(homePanel0Layout);
@@ -81,6 +82,7 @@ public class vistaHome extends javax.swing.JPanel {
         });
 
         homeBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton1.png"))); // NOI18N
+        homeBtn1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout homePanel1Layout = new javax.swing.GroupLayout(homePanel1);
         homePanel1.setLayout(homePanel1Layout);
@@ -113,6 +115,7 @@ public class vistaHome extends javax.swing.JPanel {
         });
 
         homeBtn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton2.png"))); // NOI18N
+        homeBtn2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout homePanel2Layout = new javax.swing.GroupLayout(homePanel2);
         homePanel2.setLayout(homePanel2Layout);
@@ -145,6 +148,7 @@ public class vistaHome extends javax.swing.JPanel {
         });
 
         homeBtn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton3.png"))); // NOI18N
+        homeBtn3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout homePanel3Layout = new javax.swing.GroupLayout(homePanel3);
         homePanel3.setLayout(homePanel3Layout);
@@ -177,6 +181,7 @@ public class vistaHome extends javax.swing.JPanel {
         });
 
         homeBtn4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton4.png"))); // NOI18N
+        homeBtn4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout homePanel4Layout = new javax.swing.GroupLayout(homePanel4);
         homePanel4.setLayout(homePanel4Layout);
@@ -209,6 +214,7 @@ public class vistaHome extends javax.swing.JPanel {
         });
 
         homeBtn5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton5.png"))); // NOI18N
+        homeBtn5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout homePanel5Layout = new javax.swing.GroupLayout(homePanel5);
         homePanel5.setLayout(homePanel5Layout);

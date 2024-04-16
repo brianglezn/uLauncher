@@ -38,9 +38,9 @@ public class vistaGame extends javax.swing.JPanel {
         btnCarrusel4 = new javax.swing.JLabel();
         btnCarruselIzquierda = new javax.swing.JLabel();
         btnCarruselDerecha = new javax.swing.JLabel();
+        imgCarruselPre = new javax.swing.JLabel();
         imgCarruselPrincipal = new javax.swing.JLabel();
         imgCarruselPost = new javax.swing.JLabel();
-        imgCarruselPre = new javax.swing.JLabel();
 
         setMaximumSize(new java.awt.Dimension(1550, 880));
         setMinimumSize(new java.awt.Dimension(1550, 880));
@@ -55,6 +55,7 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btnComenzar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Comenzar.png"))); // NOI18N
+        btnComenzar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnComenzar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnComenzarMouseClicked(evt);
@@ -66,7 +67,7 @@ public class vistaGame extends javax.swing.JPanel {
                 btnComenzarMouseExited(evt);
             }
         });
-        jPanel1.add(btnComenzar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 800, 260, 50));
+        jPanel1.add(btnComenzar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 800, -1, 50));
 
         txtTitle.setFont(new java.awt.Font("Raleway Black", 0, 22)); // NOI18N
         txtTitle.setForeground(new java.awt.Color(255, 255, 255));
@@ -83,6 +84,7 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(txtDescription, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 860, 180));
 
         btnCarrusel0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png"))); // NOI18N
+        btnCarrusel0.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCarrusel0.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCarrusel0MouseClicked(evt);
@@ -91,6 +93,7 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(btnCarrusel0, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 520, -1, -1));
 
         btnCarrusel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png"))); // NOI18N
+        btnCarrusel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCarrusel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCarrusel1MouseClicked(evt);
@@ -99,6 +102,7 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(btnCarrusel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 520, -1, -1));
 
         btnCarrusel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png"))); // NOI18N
+        btnCarrusel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCarrusel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCarrusel2MouseClicked(evt);
@@ -107,6 +111,7 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(btnCarrusel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 520, -1, -1));
 
         btnCarrusel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png"))); // NOI18N
+        btnCarrusel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCarrusel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCarrusel3MouseClicked(evt);
@@ -115,6 +120,7 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(btnCarrusel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 520, -1, -1));
 
         btnCarrusel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png"))); // NOI18N
+        btnCarrusel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCarrusel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCarrusel4MouseClicked(evt);
@@ -123,6 +129,7 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(btnCarrusel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 520, -1, -1));
 
         btnCarruselIzquierda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Flecha izquierda.png"))); // NOI18N
+        btnCarruselIzquierda.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCarruselIzquierda.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCarruselIzquierdaMouseClicked(evt);
@@ -131,15 +138,16 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(btnCarruselIzquierda, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 280, -1, -1));
 
         btnCarruselDerecha.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Flecha derecha.png"))); // NOI18N
+        btnCarruselDerecha.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCarruselDerecha.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCarruselDerechaMouseClicked(evt);
             }
         });
         jPanel1.add(btnCarruselDerecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 260, -1, -1));
+        jPanel1.add(imgCarruselPre, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 630, 370));
         jPanel1.add(imgCarruselPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 30, 850, 480));
         jPanel1.add(imgCarruselPost, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 60, 630, 370));
-        jPanel1.add(imgCarruselPre, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 630, 370));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
