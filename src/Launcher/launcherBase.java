@@ -16,6 +16,7 @@ public class launcherBase extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        panelEscudos = new javax.swing.JPanel();
         escudo0 = new javax.swing.JLabel();
         escudo1 = new javax.swing.JLabel();
         escudo2 = new javax.swing.JLabel();
@@ -47,47 +48,51 @@ public class launcherBase extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(1920, 1080));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        panelEscudos.setOpaque(false);
+
         escudo0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton0.png"))); // NOI18N
-        jPanel1.add(escudo0, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 80, -1, -1));
+        panelEscudos.add(escudo0);
 
         escudo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton1.png"))); // NOI18N
-        jPanel1.add(escudo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 80, -1, -1));
+        panelEscudos.add(escudo1);
 
         escudo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton2.png"))); // NOI18N
-        jPanel1.add(escudo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 80, -1, -1));
+        panelEscudos.add(escudo2);
 
         escudo3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton3.png"))); // NOI18N
-        jPanel1.add(escudo3, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 80, -1, -1));
+        panelEscudos.add(escudo3);
 
         escudo4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton4.png"))); // NOI18N
-        jPanel1.add(escudo4, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 80, -1, -1));
+        panelEscudos.add(escudo4);
 
         escudo5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton5.png"))); // NOI18N
-        jPanel1.add(escudo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 80, -1, -1));
+        panelEscudos.add(escudo5);
 
         escudo6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton6.png"))); // NOI18N
-        jPanel1.add(escudo6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 80, -1, -1));
+        panelEscudos.add(escudo6);
 
         escudo7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton7.png"))); // NOI18N
-        jPanel1.add(escudo7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1160, 80, -1, -1));
+        panelEscudos.add(escudo7);
 
         escudo8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton8.png"))); // NOI18N
-        jPanel1.add(escudo8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 80, -1, -1));
+        panelEscudos.add(escudo8);
 
         escudo9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton9.png"))); // NOI18N
-        jPanel1.add(escudo9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1380, 80, -1, -1));
+        panelEscudos.add(escudo9);
 
         escudo10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton10.png"))); // NOI18N
-        jPanel1.add(escudo10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 80, -1, -1));
+        panelEscudos.add(escudo10);
 
         escudo11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton11.png"))); // NOI18N
-        jPanel1.add(escudo11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 80, -1, -1));
+        panelEscudos.add(escudo11);
 
         escudo13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton12.png"))); // NOI18N
-        jPanel1.add(escudo13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1710, 80, -1, -1));
+        panelEscudos.add(escudo13);
 
         escudo12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton13.png"))); // NOI18N
-        jPanel1.add(escudo12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1820, 80, -1, -1));
+        panelEscudos.add(escudo12);
+
+        jPanel1.add(panelEscudos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, 1550, 130));
 
         content.setOpaque(false);
 
@@ -157,5 +162,6 @@ public class launcherBase extends javax.swing.JFrame {
     private javax.swing.JLabel escudo8;
     private javax.swing.JLabel escudo9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel panelEscudos;
     // End of variables declaration//GEN-END:variables
 }
