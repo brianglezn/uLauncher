@@ -1,9 +1,17 @@
 package Launcher;
 
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+
 public class vistaGame extends javax.swing.JPanel {
 
     public vistaGame() {
         initComponents();
+        SetImageLabelPrincipal(imgCarrusel1, "src/images/InterfazGame/Miniaturas/Embarque/Embarque0.png");
+        SetImageLabelSecundario(imgCarruselPre, "src/images/InterfazGame/Miniaturas/Embarque/Embarque4.png");
+        SetImageLabelSecundario(imgCarruselPost, "src/images/InterfazGame/Miniaturas/Embarque/Embarque1.png");
     }
 
     @SuppressWarnings("unchecked")
@@ -23,6 +31,8 @@ public class vistaGame extends javax.swing.JPanel {
         btnCarruselIzquierda = new javax.swing.JLabel();
         btnCarruselDerecha = new javax.swing.JLabel();
         imgCarrusel1 = new javax.swing.JLabel();
+        imgCarruselPost = new javax.swing.JLabel();
+        imgCarruselPre = new javax.swing.JLabel();
 
         setMaximumSize(new java.awt.Dimension(1550, 880));
         setMinimumSize(new java.awt.Dimension(1550, 880));
@@ -51,7 +61,7 @@ public class vistaGame extends javax.swing.JPanel {
         txtDescription.setForeground(new java.awt.Color(255, 255, 255));
         txtDescription.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtDescription.setText("<html>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae provident nisi placeat officia nostrum, suscipit ea ratione veniam possimus, recusandae distinctio molestias blanditiis. Blanditiis quia sunt officia exercitationem optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae provident nisi placeat officia nostrum, suscipit ea ratione veniam possimus, recusandae distinctio molestias blanditiis. Blanditiis quia sunt officia exercitationem optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae provident nisi placeat officia nostrum, suscipit ea ratione veniam possimus, recusandae distinctio molestias blanditiis. Blanditiis quia sunt officia exercitationem optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae provident nisi placeat officia nostrum, suscipit ea ratione veniam possimus, recusandae distinctio molestias blanditiis. Blanditiis quia sunt officia exercitationem optio.</html>");
-        jPanel1.add(txtDescription, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 830, 180));
+        jPanel1.add(txtDescription, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 860, 180));
 
         btnCarrusel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png"))); // NOI18N
         jPanel1.add(btnCarrusel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 520, -1, -1));
@@ -73,9 +83,9 @@ public class vistaGame extends javax.swing.JPanel {
 
         btnCarruselDerecha.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Flecha derecha.png"))); // NOI18N
         jPanel1.add(btnCarruselDerecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 260, -1, -1));
-
-        imgCarrusel1.setText("jLabel2");
         jPanel1.add(imgCarrusel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 30, 850, 480));
+        jPanel1.add(imgCarruselPost, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 60, 630, 370));
+        jPanel1.add(imgCarruselPre, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 630, 370));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -89,6 +99,27 @@ public class vistaGame extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void SetImageLabelPrincipal(JLabel labelName, String root) {
+        if (labelName.getWidth() == 0 || labelName.getHeight() == 0) {
+            labelName.setSize(850, 480);
+        }
+
+        ImageIcon image = new ImageIcon(root);
+        Icon icon = new ImageIcon(image.getImage().getScaledInstance(labelName.getWidth(), labelName.getHeight(), Image.SCALE_DEFAULT));
+        labelName.setIcon(icon);
+        this.repaint();
+    }
+
+    private void SetImageLabelSecundario(JLabel labelName, String root) {
+        if (labelName.getWidth() == 0 || labelName.getHeight() == 0) {
+            labelName.setSize(630, 370);
+        }
+
+        ImageIcon image = new ImageIcon(root);
+        Icon icon = new ImageIcon(image.getImage().getScaledInstance(labelName.getWidth(), labelName.getHeight(), Image.SCALE_DEFAULT));
+        labelName.setIcon(icon);
+        this.repaint();
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel btnCarrusel1;
@@ -100,6 +131,8 @@ public class vistaGame extends javax.swing.JPanel {
     private javax.swing.JLabel btnCarruselIzquierda;
     private javax.swing.JLabel btnComenzar;
     private javax.swing.JLabel imgCarrusel1;
+    private javax.swing.JLabel imgCarruselPost;
+    private javax.swing.JLabel imgCarruselPre;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel txtDescription;
     private javax.swing.JLabel txtSeparador;

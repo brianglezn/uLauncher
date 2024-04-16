@@ -7,7 +7,7 @@ public class launcherBase extends javax.swing.JFrame {
 
     public launcherBase() {
         initComponents();
-        vistaHome vista = new vistaHome();
+        vistaGame vista = new vistaGame();
         ShowPanel(vista);
     }
 
