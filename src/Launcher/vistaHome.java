@@ -2,7 +2,10 @@ package Launcher;
 
 public class vistaHome extends javax.swing.JPanel {
 
-    public vistaHome() {
+    private launcherBase mainFrame;
+
+    public vistaHome(launcherBase frame) {
+        mainFrame = frame;
         initComponents();
     }
 
@@ -243,27 +246,33 @@ public class vistaHome extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void homePanel0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel0MouseClicked
-        // TODO add your handling code here:
+        vistaGame vista = new vistaGame();
+        mainFrame.ShowPanel(vista);
     }//GEN-LAST:event_homePanel0MouseClicked
 
     private void homePanel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel1MouseClicked
-        // TODO add your handling code here:
+        vistaGame vista = new vistaGame();
+        mainFrame.ShowPanel(vista);
     }//GEN-LAST:event_homePanel1MouseClicked
 
     private void homePanel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel2MouseClicked
-        // TODO add your handling code here:
+        vistaGame vista = new vistaGame();
+        mainFrame.ShowPanel(vista);
     }//GEN-LAST:event_homePanel2MouseClicked
 
     private void homePanel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel3MouseClicked
-        // TODO add your handling code here:
+        vistaGame vista = new vistaGame();
+        mainFrame.ShowPanel(vista);
     }//GEN-LAST:event_homePanel3MouseClicked
 
     private void homePanel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel4MouseClicked
-        // TODO add your handling code here:
+        vistaGame vista = new vistaGame();
+        mainFrame.ShowPanel(vista);
     }//GEN-LAST:event_homePanel4MouseClicked
 
     private void homePanel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel5MouseClicked
-        // TODO add your handling code here:
+        vistaGame vista = new vistaGame();
+        mainFrame.ShowPanel(vista);
     }//GEN-LAST:event_homePanel5MouseClicked
 
 

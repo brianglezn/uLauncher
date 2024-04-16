@@ -5,9 +5,12 @@ import javax.swing.JPanel;
 
 public class launcherBase extends javax.swing.JFrame {
 
+    private launcherBase thisFrame;
+
     public launcherBase() {
+        thisFrame = this;  // Guarda la referencia
         initComponents();
-        vistaGame vista = new vistaGame();
+        vistaHome vista = new vistaHome(thisFrame);  // Pasa la referencia
         ShowPanel(vista);
     }
 
@@ -126,7 +129,7 @@ public class launcherBase extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void ShowPanel(JPanel page) {
+    void ShowPanel(JPanel page) {
         page.setSize(1550, 880);
         page.setLocation(0, 0);
 
