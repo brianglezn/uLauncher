@@ -87,7 +87,6 @@ public class vistaGame extends javax.swing.JPanel {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        btnComenzar = new javax.swing.JLabel();
         txtTitle = new javax.swing.JLabel();
         txtSeparador = new javax.swing.JLabel();
         txtDescription = new javax.swing.JLabel();
@@ -101,6 +100,7 @@ public class vistaGame extends javax.swing.JPanel {
         imgCarruselPrincipal = new javax.swing.JLabel();
         imgCarruselPre = new javax.swing.JLabel();
         imgCarruselPost = new javax.swing.JLabel();
+        btnComenzar = new javax.swing.JLabel();
 
         setMaximumSize(new java.awt.Dimension(1550, 880));
         setMinimumSize(new java.awt.Dimension(1550, 880));
@@ -114,24 +114,9 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.setRequestFocusEnabled(false);
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnComenzar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Comenzar.png"))); // NOI18N
-        btnComenzar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnComenzar.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                btnComenzarMouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btnComenzarMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                btnComenzarMouseExited(evt);
-            }
-        });
-        jPanel1.add(btnComenzar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 800, -1, 50));
-
         txtTitle.setFont(new java.awt.Font("Raleway Black", 0, 22)); // NOI18N
         txtTitle.setForeground(new java.awt.Color(255, 255, 255));
-        txtTitle.setText("Embarque y desembarque en helicoptero");
+        txtTitle.setText("Titulo de texto");
         jPanel1.add(txtTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 560, 960, 40));
 
         txtSeparador.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Barrita aislada descripción.png"))); // NOI18N
@@ -140,7 +125,7 @@ public class vistaGame extends javax.swing.JPanel {
         txtDescription.setFont(new java.awt.Font("Raleway", 0, 14)); // NOI18N
         txtDescription.setForeground(new java.awt.Color(255, 255, 255));
         txtDescription.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        txtDescription.setText("<html>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae provident nisi placeat officia nostrum, suscipit ea ratione veniam possimus, recusandae distinctio molestias blanditiis. Blanditiis quia sunt officia exercitationem optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae provident nisi placeat officia nostrum, suscipit ea ratione veniam possimus, recusandae distinctio molestias blanditiis. Blanditiis quia sunt officia exercitationem optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae provident nisi placeat officia nostrum, suscipit ea ratione veniam possimus, recusandae distinctio molestias blanditiis. Blanditiis quia sunt officia exercitationem optio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae provident nisi placeat officia nostrum, suscipit ea ratione veniam possimus, recusandae distinctio molestias blanditiis. Blanditiis quia sunt officia exercitationem optio.</html>");
+        txtDescription.setText("<html>Texto de descripción</html>");
         jPanel1.add(txtDescription, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 860, 180));
 
         btnCarrusel0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png"))); // NOI18N
@@ -209,6 +194,21 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(imgCarruselPre, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 630, 370));
         jPanel1.add(imgCarruselPost, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 60, 630, 370));
 
+        btnComenzar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Comenzar.png"))); // NOI18N
+        btnComenzar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnComenzar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnComenzarMouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnComenzarMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnComenzarMouseExited(evt);
+            }
+        });
+        jPanel1.add(btnComenzar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 800, -1, 50));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -258,7 +258,10 @@ public class vistaGame extends javax.swing.JPanel {
         updateImages();
     }//GEN-LAST:event_btnCarrusel4MouseClicked
 
-    // Manejadores de eventos para el boton de comenzar
+    private void btnComenzarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnComenzarMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnComenzarMouseClicked
+
     private void btnComenzarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnComenzarMouseEntered
         // TODO add your handling code here:
     }//GEN-LAST:event_btnComenzarMouseEntered
@@ -266,10 +269,6 @@ public class vistaGame extends javax.swing.JPanel {
     private void btnComenzarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnComenzarMouseExited
         // TODO add your handling code here:
     }//GEN-LAST:event_btnComenzarMouseExited
-
-    private void btnComenzarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnComenzarMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnComenzarMouseClicked
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel btnCarrusel0;

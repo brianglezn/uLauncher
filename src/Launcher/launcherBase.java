@@ -70,6 +70,7 @@ public class launcherBase extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         panelEscudos.setOpaque(false);
+        panelEscudos.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 10, 5));
 
         escudo0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton0.png"))); // NOI18N
         escudo0.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -283,6 +284,8 @@ public class launcherBase extends javax.swing.JFrame {
 
         jPanel1.add(panelEscudos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, 1550, 130));
 
+        content.setMaximumSize(new java.awt.Dimension(1550, 880));
+        content.setMinimumSize(new java.awt.Dimension(1550, 880));
         content.setOpaque(false);
 
         javax.swing.GroupLayout contentLayout = new javax.swing.GroupLayout(content);
@@ -299,7 +302,7 @@ public class launcherBase extends javax.swing.JFrame {
         jPanel1.add(content, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 200, 1550, 880));
 
         bgImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/FondoBase.png"))); // NOI18N
-        jPanel1.add(bgImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1920, 1080));
+        jPanel1.add(bgImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
