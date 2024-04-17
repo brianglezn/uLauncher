@@ -14,6 +14,24 @@ public class launcherBase extends javax.swing.JFrame {
         ShowPanel(vista);
     }
 
+    void ShowPanel(JPanel page) {
+        page.setSize(1550, 880);
+        page.setLocation(0, 0);
+
+        content.removeAll();
+        content.add(page, BorderLayout.CENTER);
+        content.revalidate();
+        content.repaint();
+    }
+
+    public static void main(String args[]) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new launcherBase().setVisible(true);
+            }
+        });
+    }
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -32,8 +50,8 @@ public class launcherBase extends javax.swing.JFrame {
         escudo9 = new javax.swing.JLabel();
         escudo10 = new javax.swing.JLabel();
         escudo11 = new javax.swing.JLabel();
-        escudo13 = new javax.swing.JLabel();
         escudo12 = new javax.swing.JLabel();
+        escudo13 = new javax.swing.JLabel();
         content = new javax.swing.JPanel();
         bgImage = new javax.swing.JLabel();
 
@@ -70,55 +88,198 @@ public class launcherBase extends javax.swing.JFrame {
 
         escudo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton1.png"))); // NOI18N
         escudo1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo1MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo1);
 
         escudo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton2.png"))); // NOI18N
         escudo2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo2MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo2MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo2MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo2);
 
         escudo3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton3.png"))); // NOI18N
         escudo3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo3MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo3MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo3MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo3);
 
         escudo4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton4.png"))); // NOI18N
         escudo4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo4MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo4MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo4MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo4);
 
         escudo5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton5.png"))); // NOI18N
         escudo5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo5MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo5MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo5MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo5);
 
         escudo6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton6.png"))); // NOI18N
         escudo6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo6MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo6MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo6MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo6);
 
         escudo7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton7.png"))); // NOI18N
         escudo7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo7MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo7MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo7MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo7);
 
         escudo8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton8.png"))); // NOI18N
         escudo8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo8MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo8MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo8MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo8);
 
         escudo9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton9.png"))); // NOI18N
         escudo9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo9MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo9MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo9MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo9);
 
         escudo10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton10.png"))); // NOI18N
         escudo10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo10MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo10MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo10MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo10);
 
         escudo11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton11.png"))); // NOI18N
         escudo11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo11MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo11MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo11MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo11);
 
-        escudo13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton12.png"))); // NOI18N
-        escudo13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        panelEscudos.add(escudo13);
-
-        escudo12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton13.png"))); // NOI18N
+        escudo12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton12.png"))); // NOI18N
         escudo12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo12MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo12MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo12MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo12);
+
+        escudo13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton13.png"))); // NOI18N
+        escudo13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo13MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo13MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo13MouseExited(evt);
+            }
+        });
+        panelEscudos.add(escudo13);
 
         jPanel1.add(panelEscudos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, 1550, 130));
 
@@ -167,23 +328,174 @@ public class launcherBase extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_escudo0MouseExited
 
-    void ShowPanel(JPanel page) {
-        page.setSize(1550, 880);
-        page.setLocation(0, 0);
+    private void escudo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo1MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo1MouseClicked
 
-        content.removeAll();
-        content.add(page, BorderLayout.CENTER);
-        content.revalidate();
-        content.repaint();
-    }
+    private void escudo1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo1MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo1MouseEntered
 
-    public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new launcherBase().setVisible(true);
-            }
-        });
-    }
+    private void escudo1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo1MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo1MouseExited
+
+    private void escudo2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo2MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo2MouseClicked
+
+    private void escudo2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo2MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo2MouseEntered
+
+    private void escudo2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo2MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo2MouseExited
+
+    private void escudo3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo3MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo3MouseClicked
+
+    private void escudo3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo3MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo3MouseEntered
+
+    private void escudo3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo3MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo3MouseExited
+
+    private void escudo4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo4MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo4MouseClicked
+
+    private void escudo4MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo4MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo4MouseEntered
+
+    private void escudo4MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo4MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo4MouseExited
+
+    private void escudo5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo5MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo5MouseClicked
+
+    private void escudo5MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo5MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo5MouseEntered
+
+    private void escudo5MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo5MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo5MouseExited
+
+    private void escudo6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo6MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo6MouseClicked
+
+    private void escudo6MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo6MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo6MouseEntered
+
+    private void escudo6MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo6MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo6MouseExited
+
+    private void escudo7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo7MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo7MouseClicked
+
+    private void escudo7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo7MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo7MouseEntered
+
+    private void escudo7MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo7MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo7MouseExited
+
+    private void escudo8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo8MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo8MouseClicked
+
+    private void escudo8MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo8MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo8MouseEntered
+
+    private void escudo8MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo8MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo8MouseExited
+
+    private void escudo9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo9MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo9MouseClicked
+
+    private void escudo9MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo9MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo9MouseEntered
+
+    private void escudo9MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo9MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo9MouseExited
+
+    private void escudo10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo10MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo10MouseClicked
+
+    private void escudo10MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo10MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo10MouseEntered
+
+    private void escudo10MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo10MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo10MouseExited
+
+    private void escudo11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo11MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo11MouseClicked
+
+    private void escudo11MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo11MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo11MouseEntered
+
+    private void escudo11MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo11MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo11MouseExited
+
+    private void escudo12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo12MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo12MouseClicked
+
+    private void escudo12MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo12MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo12MouseEntered
+
+    private void escudo12MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo12MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo12MouseExited
+
+    private void escudo13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo13MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo13MouseClicked
+
+    private void escudo13MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo13MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo13MouseEntered
+
+    private void escudo13MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo13MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo13MouseExited
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel bgImage;

@@ -20,6 +20,68 @@ public class vistaGame extends javax.swing.JPanel {
         updateImages();
     }
 
+    // Método para establecer la imagen principal
+    private void SetImageLabelPrincipal(JLabel labelName, String root) {
+        if (labelName.getWidth() == 0 || labelName.getHeight() == 0) {
+            labelName.setSize(850, 480);
+        }
+
+        ImageIcon image = new ImageIcon(root);
+        Icon icon = new ImageIcon(image.getImage().getScaledInstance(labelName.getWidth(), labelName.getHeight(), Image.SCALE_DEFAULT));
+        labelName.setIcon(icon);
+        this.repaint();
+    }
+
+    // Método para establecer las imágenes secundarias
+    private void SetImageLabelSecundario(JLabel labelName, String root) {
+        if (labelName.getWidth() == 0 || labelName.getHeight() == 0) {
+            labelName.setSize(630, 370);
+        }
+
+        ImageIcon image = new ImageIcon(root);
+        Icon icon = new ImageIcon(image.getImage().getScaledInstance(labelName.getWidth(), labelName.getHeight(), Image.SCALE_DEFAULT));
+        labelName.setIcon(icon);
+        this.repaint();
+    }
+
+    // Actualizar todas las imágenes según el índice actual
+    private void updateImages() {
+        int preIndex = (currentImageIndex - 1 + imagePaths.length) % imagePaths.length;
+        int postIndex = (currentImageIndex + 1) % imagePaths.length;
+
+        SetImageLabelPrincipal(imgCarruselPrincipal, imagePaths[currentImageIndex]);
+        SetImageLabelSecundario(imgCarruselPre, imagePaths[preIndex]);
+        SetImageLabelSecundario(imgCarruselPost, imagePaths[postIndex]);
+        updateCarruselButtons(); // Aquí también se actualizan los botones de navegación del carrusel
+    }
+
+    // Actualizar el estado de los botones de navegación del carrusel según la imagen actual
+    private void updateCarruselButtons() {
+        btnCarrusel0.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+        btnCarrusel1.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+        btnCarrusel2.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+        btnCarrusel3.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+        btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
+
+        switch (currentImageIndex) {
+            case 0:
+                btnCarrusel0.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+            case 1:
+                btnCarrusel1.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+            case 2:
+                btnCarrusel2.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+            case 3:
+                btnCarrusel3.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+            case 4:
+                btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
+                break;
+        }
+    }
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -208,68 +270,6 @@ public class vistaGame extends javax.swing.JPanel {
     private void btnComenzarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnComenzarMouseClicked
         // TODO add your handling code here:
     }//GEN-LAST:event_btnComenzarMouseClicked
-
-    // Método para establecer la imagen principal
-    private void SetImageLabelPrincipal(JLabel labelName, String root) {
-        if (labelName.getWidth() == 0 || labelName.getHeight() == 0) {
-            labelName.setSize(850, 480);
-        }
-
-        ImageIcon image = new ImageIcon(root);
-        Icon icon = new ImageIcon(image.getImage().getScaledInstance(labelName.getWidth(), labelName.getHeight(), Image.SCALE_DEFAULT));
-        labelName.setIcon(icon);
-        this.repaint();
-    }
-
-    // Método para establecer las imágenes secundarias
-    private void SetImageLabelSecundario(JLabel labelName, String root) {
-        if (labelName.getWidth() == 0 || labelName.getHeight() == 0) {
-            labelName.setSize(630, 370);
-        }
-
-        ImageIcon image = new ImageIcon(root);
-        Icon icon = new ImageIcon(image.getImage().getScaledInstance(labelName.getWidth(), labelName.getHeight(), Image.SCALE_DEFAULT));
-        labelName.setIcon(icon);
-        this.repaint();
-    }
-
-    // Actualizar todas las imágenes según el índice actual
-    private void updateImages() {
-        int preIndex = (currentImageIndex - 1 + imagePaths.length) % imagePaths.length;
-        int postIndex = (currentImageIndex + 1) % imagePaths.length;
-
-        SetImageLabelPrincipal(imgCarruselPrincipal, imagePaths[currentImageIndex]);
-        SetImageLabelSecundario(imgCarruselPre, imagePaths[preIndex]);
-        SetImageLabelSecundario(imgCarruselPost, imagePaths[postIndex]);
-        updateCarruselButtons(); // Aquí también se actualizan los botones de navegación del carrusel
-    }
-
-    // Actualizar el estado de los botones de navegación del carrusel según la imagen actual
-    private void updateCarruselButtons() {
-        btnCarrusel0.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-        btnCarrusel1.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-        btnCarrusel2.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-        btnCarrusel3.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-        btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselEmpty.png")));
-
-        switch (currentImageIndex) {
-            case 0:
-                btnCarrusel0.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-            case 1:
-                btnCarrusel1.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-            case 2:
-                btnCarrusel2.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-            case 3:
-                btnCarrusel3.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-            case 4:
-                btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
-                break;
-        }
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel btnCarrusel0;
