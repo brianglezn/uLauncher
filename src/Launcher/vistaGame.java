@@ -1,5 +1,7 @@
 package Launcher;
 
+import Launcher.helpers.GameConfig;
+
 import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -8,18 +10,14 @@ import javax.swing.JLabel;
 public class vistaGame extends javax.swing.JPanel {
 
     private int currentImageIndex = 0;
+    private String[] imagePaths;
 
-    private String[] imagePaths = {
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque0.png",
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque1.png",
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque2.png",
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque3.png",
-        "src/images/InterfazGame/Miniaturas/Embarque/Embarque4.png"
-    };
-
-    public vistaGame() {
+    public vistaGame(GameConfig config) {
         initComponents();
-        updateImages(); // Llamada inicial para actualizar las imágenes pillamos el indice inicial 0
+        this.imagePaths = config.getImagePaths();
+        txtTitle.setText(config.getTitle());
+        txtDescription.setText(config.getDescription());
+        updateImages();
     }
 
     @SuppressWarnings("unchecked")
@@ -38,8 +36,8 @@ public class vistaGame extends javax.swing.JPanel {
         btnCarrusel4 = new javax.swing.JLabel();
         btnCarruselIzquierda = new javax.swing.JLabel();
         btnCarruselDerecha = new javax.swing.JLabel();
-        imgCarruselPre = new javax.swing.JLabel();
         imgCarruselPrincipal = new javax.swing.JLabel();
+        imgCarruselPre = new javax.swing.JLabel();
         imgCarruselPost = new javax.swing.JLabel();
 
         setMaximumSize(new java.awt.Dimension(1550, 880));
@@ -145,8 +143,8 @@ public class vistaGame extends javax.swing.JPanel {
             }
         });
         jPanel1.add(btnCarruselDerecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(1340, 260, -1, -1));
-        jPanel1.add(imgCarruselPre, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 630, 370));
         jPanel1.add(imgCarruselPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 30, 850, 480));
+        jPanel1.add(imgCarruselPre, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 630, 370));
         jPanel1.add(imgCarruselPost, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 60, 630, 370));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

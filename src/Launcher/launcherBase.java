@@ -54,45 +54,70 @@ public class launcherBase extends javax.swing.JFrame {
         panelEscudos.setOpaque(false);
 
         escudo0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton0.png"))); // NOI18N
+        escudo0.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        escudo0.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                escudo0MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                escudo0MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                escudo0MouseExited(evt);
+            }
+        });
         panelEscudos.add(escudo0);
 
         escudo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton1.png"))); // NOI18N
+        escudo1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo1);
 
         escudo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton2.png"))); // NOI18N
+        escudo2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo2);
 
         escudo3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton3.png"))); // NOI18N
+        escudo3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo3);
 
         escudo4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton4.png"))); // NOI18N
+        escudo4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo4);
 
         escudo5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton5.png"))); // NOI18N
+        escudo5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo5);
 
         escudo6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton6.png"))); // NOI18N
+        escudo6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo6);
 
         escudo7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton7.png"))); // NOI18N
+        escudo7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo7);
 
         escudo8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton8.png"))); // NOI18N
+        escudo8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo8);
 
         escudo9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton9.png"))); // NOI18N
+        escudo9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo9);
 
         escudo10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton10.png"))); // NOI18N
+        escudo10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo10);
 
         escudo11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton11.png"))); // NOI18N
+        escudo11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo11);
 
         escudo13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton12.png"))); // NOI18N
+        escudo13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo13);
 
         escudo12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton13.png"))); // NOI18N
+        escudo12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         panelEscudos.add(escudo12);
 
         jPanel1.add(panelEscudos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, 1550, 130));
@@ -128,6 +153,19 @@ public class launcherBase extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void escudo0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo0MouseClicked
+        vistaHome vista = new vistaHome(thisFrame);
+        ShowPanel(vista);
+    }//GEN-LAST:event_escudo0MouseClicked
+
+    private void escudo0MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo0MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo0MouseEntered
+
+    private void escudo0MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo0MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_escudo0MouseExited
 
     void ShowPanel(JPanel page) {
         page.setSize(1550, 880);
