@@ -124,7 +124,7 @@ public class vistaGame extends javax.swing.JPanel {
 
         txtDescription.setFont(new java.awt.Font("Raleway", 0, 14)); // NOI18N
         txtDescription.setForeground(new java.awt.Color(255, 255, 255));
-        txtDescription.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtDescription.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         txtDescription.setText("<html>Texto de descripción</html>");
         jPanel1.add(txtDescription, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 860, 180));
 
