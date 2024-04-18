@@ -1,0 +1,68 @@
+{
+  "Embarque": {
+    "title": "Embarque y desembarque en helicoptero",
+    "description": "Descripción del Embarque...",
+    "imagePaths": [
+      "src/images/InterfazGame/Miniaturas/Embarque/Embarque0.png",
+      "src/images/InterfazGame/Miniaturas/Embarque/Embarque1.png",
+      "src/images/InterfazGame/Miniaturas/Embarque/Embarque2.png",
+      "src/images/InterfazGame/Miniaturas/Embarque/Embarque3.png",
+      "src/images/InterfazGame/Miniaturas/Embarque/Embarque4.png"
+    ]
+  },
+  "Hemorragia": {
+    "title": "Protocolo ante una hemorragia externa",
+    "description": "Descripción de Hemorragia...",
+    "imagePaths": [
+      "src/images/InterfazGame/Miniaturas/Hemorragia/Hemorragia0.png",
+      "src/images/InterfazGame/Miniaturas/Hemorragia/Hemorragia1.png",
+      "src/images/InterfazGame/Miniaturas/Hemorragia/Hemorragia2.png",
+      "src/images/InterfazGame/Miniaturas/Hemorragia/Hemorragia3.png",
+      "src/images/InterfazGame/Miniaturas/Hemorragia/Hemorragia4.png"
+    ]
+  },
+  "Extincion": {
+    "title": "Maniobras de extinción según la instalación",
+    "description": "Descripción de Extincion...",
+    "imagePaths": [
+      "src/images/InterfazGame/Miniaturas/Extincion/Extincion0.png",
+      "src/images/InterfazGame/Miniaturas/Extincion/Extincion1.png",
+      "src/images/InterfazGame/Miniaturas/Extincion/Extincion2.png",
+      "src/images/InterfazGame/Miniaturas/Extincion/Extincion3.png",
+      "src/images/InterfazGame/Miniaturas/Extincion/Extincion4.png"
+    ]
+  },
+  "EPIS": {
+    "title": "Tipología y características de los EPIs",
+    "description": "Descripción de EPIS...",
+    "imagePaths": [
+      "src/images/InterfazGame/Miniaturas/EPIS/EPIS0.png",
+      "src/images/InterfazGame/Miniaturas/EPIS/EPIS1.png",
+      "src/images/InterfazGame/Miniaturas/EPIS/EPIS2.png",
+      "src/images/InterfazGame/Miniaturas/EPIS/EPIS3.png",
+      "src/images/InterfazGame/Miniaturas/EPIS/EPIS4.png"
+    ]
+  },
+  "Helicoptero": {
+    "title": "Señalización a helicóptero desde tierra",
+    "description": "Descripción de Helicoptero...",
+    "imagePaths": [
+      "src/images/InterfazGame/Miniaturas/Helicoptero/Helicoptero0.png",
+      "src/images/InterfazGame/Miniaturas/Helicoptero/Helicoptero1.png",
+      "src/images/InterfazGame/Miniaturas/Helicoptero/Helicoptero2.png",
+      "src/images/InterfazGame/Miniaturas/Helicoptero/Helicoptero3.png",
+      "src/images/InterfazGame/Miniaturas/Helicoptero/Helicoptero4.png"
+    ]
+  },
+  "Ascensor": {
+    "title": "Rescate en ascensor",
+    "description": "Descripción de Ascensor...",
+    "imagePaths": [
+      "src/images/InterfazGame/Miniaturas/Ascensor/Ascensor0.png",
+      "src/images/InterfazGame/Miniaturas/Ascensor/Ascensor1.png",
+      "src/images/InterfazGame/Miniaturas/Ascensor/Ascensor2.png",
+      "src/images/InterfazGame/Miniaturas/Ascensor/Ascensor3.png",
+      "src/images/InterfazGame/Miniaturas/Ascensor/Ascensor4.png"
+    ]
+  }
+}

@@ -2,15 +2,20 @@ package Launcher;
 
 import java.awt.BorderLayout;
 import javax.swing.JPanel;
+import org.json.JSONObject;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class launcherBase extends javax.swing.JFrame {
 
     private launcherBase thisFrame;
+    private JSONObject appConfig;
 
     public launcherBase() {
         thisFrame = this;
         initComponents();
-        vistaHome vista = new vistaHome(thisFrame);
+        loadJsonConfig();
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }
 
@@ -23,6 +28,18 @@ public class launcherBase extends javax.swing.JFrame {
         content.add(page, BorderLayout.CENTER);
         content.revalidate();
         content.repaint();
+    }
+
+    // Método para cargar la configuración JSON
+    private void loadJsonConfig() {
+        String filePath = "src/Launcher/GameConfig.json";
+        String content = "";
+        try {
+            content = new String(Files.readAllBytes(Paths.get(filePath)));
+            appConfig = new JSONObject(content);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String args[]) {
@@ -236,71 +253,71 @@ public class launcherBase extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void escudo0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo0MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo0MouseClicked
 
     private void escudo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo1MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo1MouseClicked
 
     private void escudo2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo2MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo2MouseClicked
 
     private void escudo3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo3MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo3MouseClicked
 
     private void escudo4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo4MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo4MouseClicked
 
     private void escudo5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo5MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo5MouseClicked
 
     private void escudo6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo6MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo6MouseClicked
 
     private void escudo7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo7MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo7MouseClicked
     private void escudo8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo8MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo8MouseClicked
 
     private void escudo9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo9MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo9MouseClicked
 
     private void escudo10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo10MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo10MouseClicked
 
     private void escudo11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo11MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo11MouseClicked
 
     private void escudo12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo12MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo12MouseClicked
 
     private void escudo13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo13MouseClicked
-        vistaHome vista = new vistaHome(thisFrame);
+        vistaHome vista = new vistaHome(thisFrame, appConfig);
         ShowPanel(vista);
     }//GEN-LAST:event_escudo13MouseClicked
 
