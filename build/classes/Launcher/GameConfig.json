@@ -23,7 +23,7 @@
   },
   "Extincion": {
     "title": "Maniobras de extinción según la instalación",
-    "description": "Descripción de Extincion...",
+    "description": "<html>En un campo de prácticas sumido en el desorden y la confusión tienes que encontrar y colocar las partes de los EPIs utilizados en la extinción de incendios forestales.</html>",
     "imagePaths": [
       "src/images/InterfazGame/Miniaturas/Extincion/Extincion0.png",
       "src/images/InterfazGame/Miniaturas/Extincion/Extincion1.png",

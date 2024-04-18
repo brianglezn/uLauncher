@@ -126,6 +126,7 @@ public class vistaGame extends javax.swing.JPanel {
         txtDescription.setForeground(new java.awt.Color(255, 255, 255));
         txtDescription.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         txtDescription.setText("<html>Texto de descripción</html>");
+        txtDescription.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jPanel1.add(txtDescription, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 650, 860, 180));
 
         btnCarrusel0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png"))); // NOI18N
