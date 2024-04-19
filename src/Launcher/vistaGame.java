@@ -30,7 +30,7 @@ public class vistaGame extends javax.swing.JPanel {
         SetImageLabelPrincipal(imgCarruselPrincipal, imagePaths[currentImageIndex]);
         SetImageLabelSecundario(imgCarruselPre, imagePaths[preIndex]);
         SetImageLabelSecundario(imgCarruselPost, imagePaths[postIndex]);
-        updateCarruselButtons(); // Aquí también se actualizan los botones de navegación del carrusel
+        updateCarruselButtons();
     }
 
     // Método para establecer la imagen principal
