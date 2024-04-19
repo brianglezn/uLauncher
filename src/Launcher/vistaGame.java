@@ -6,6 +6,7 @@ import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
+import org.json.JSONObject;
 
 public class vistaGame extends javax.swing.JPanel {
 

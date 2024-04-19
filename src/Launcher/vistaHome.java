@@ -1,6 +1,7 @@
 package Launcher;
 
 import Launcher.helpers.GameConfig;
+import org.json.JSONObject;
 
 public class vistaHome extends javax.swing.JPanel {
 
@@ -55,7 +56,7 @@ public class vistaHome extends javax.swing.JPanel {
         "src/images/InterfazGame/Miniaturas/Hemorragia/Hemorragia4.png"
     };
 
-    public vistaHome(launcherBase frame) {
+    public vistaHome(launcherBase frame, JSONObject jsonObject) {
         mainFrame = frame;
         initComponents();
         initializeGameConfigs();
