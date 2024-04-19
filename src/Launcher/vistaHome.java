@@ -8,39 +8,39 @@ import org.json.JSONObject;
 public class vistaHome extends javax.swing.JPanel {
 
     private launcherBase mainFrame;
-    private JSONObject config;
     private GameConfig[] configs;
+    private JSONObject jsonData;
 
-    public vistaHome(launcherBase frame, JSONObject config) {
+    public vistaHome(launcherBase frame, JSONObject data) throws JSONException {
         this.mainFrame = frame;
-        this.config = config;
+        this.jsonData = data;
         initComponents();
         initializeGameConfigs();
     }
 
-    private void initializeGameConfigs() {
-        try {
-            configs = new GameConfig[6];
-            configs[0] = createConfigFromJson(config.getJSONObject("Embarque"));
-            configs[1] = createConfigFromJson(config.getJSONObject("Hemorragia"));
-            configs[2] = createConfigFromJson(config.getJSONObject("Extincion"));
-            configs[3] = createConfigFromJson(config.getJSONObject("EPIS"));
-            configs[4] = createConfigFromJson(config.getJSONObject("Helicoptero"));
-            configs[5] = createConfigFromJson(config.getJSONObject("Ascensor"));
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
+    // Método para inicializar las configuraciones de los juegos
+    private void initializeGameConfigs() throws JSONException {
+        JSONArray games = jsonData.getJSONArray("juegos");
+        configs = new GameConfig[games.length()];
 
-    private GameConfig createConfigFromJson(JSONObject jsonConfig) throws JSONException {
-        String title = jsonConfig.getString("title");
-        String description = jsonConfig.getString("description");
-        JSONArray paths = jsonConfig.getJSONArray("imagePaths");
-        String[] imagePaths = new String[paths.length()];
-        for (int i = 0; i < paths.length(); i++) {
-            imagePaths[i] = paths.getString(i);
+        for (int i = 0; i < games.length(); i++) {
+            JSONObject game = games.getJSONObject(i);
+            String title = game.getString("titulo");
+            String description = game.getString("descripcion");
+            String baseImagePath = "src/images/InterfazGame/Miniaturas/" + game.getString("imagen") + "/" + game.getString("imagen");
+
+            String[] imagePaths = new String[5];
+            for (int j = 0; j < imagePaths.length; j++) {
+                imagePaths[j] = baseImagePath + j + ".png";
+            }
+
+            configs[i] = new GameConfig(title, description, imagePaths);
+
+            System.out.println("Loaded image paths for game: " + title);
+            for (String path : imagePaths) {
+                System.out.println(path);
+            }
         }
-        return new GameConfig(title, description, imagePaths);
     }
 
     @SuppressWarnings("unchecked")

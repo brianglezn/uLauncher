@@ -2,21 +2,41 @@ package Launcher;
 
 import java.awt.BorderLayout;
 import javax.swing.JPanel;
-import org.json.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class launcherBase extends javax.swing.JFrame {
 
     private launcherBase thisFrame;
-    private JSONObject appConfig;
+    private JSONArray data;
 
     public launcherBase() {
         thisFrame = this;
         initComponents();
-        loadJsonConfig();
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            loadData();
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(0));
+            ShowPanel(vista);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // Cargar datos desde el archivo
+    private void loadData() throws JSONException {
+        try {
+            String path = "src/Launcher/BaseDeDatos.json";
+            String content = new String(Files.readAllBytes(Paths.get(path)));
+            data = new JSONArray(content);
+        } catch (IOException e) {
+            e.printStackTrace();
+            throw new JSONException("Error loading data from " + Paths.get("BaseDeDatos.json").toAbsolutePath());
+        }
     }
 
     // Método para establecer la vista en content
@@ -28,18 +48,6 @@ public class launcherBase extends javax.swing.JFrame {
         content.add(page, BorderLayout.CENTER);
         content.revalidate();
         content.repaint();
-    }
-
-    // Método para cargar la configuración JSON
-    private void loadJsonConfig() {
-        String filePath = "src/Launcher/GameConfig.json";
-        String content = "";
-        try {
-            content = new String(Files.readAllBytes(Paths.get(filePath)));
-            appConfig = new JSONObject(content);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
     public static void main(String args[]) {
@@ -88,7 +96,7 @@ public class launcherBase extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         panelEscudos.setOpaque(false);
-        panelEscudos.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 10, 5));
+        panelEscudos.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 7, 5));
 
         escudo0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton0.png"))); // NOI18N
         escudo0.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -253,72 +261,128 @@ public class launcherBase extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void escudo0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo0MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(0));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo0MouseClicked
 
     private void escudo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo1MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(1));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo1MouseClicked
 
     private void escudo2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo2MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(2));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo2MouseClicked
 
     private void escudo3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo3MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(3));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo3MouseClicked
 
     private void escudo4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo4MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(4));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo4MouseClicked
 
     private void escudo5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo5MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(5));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo5MouseClicked
 
     private void escudo6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo6MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(6));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo6MouseClicked
 
     private void escudo7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo7MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(7));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo7MouseClicked
     private void escudo8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo8MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(8));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo8MouseClicked
 
     private void escudo9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo9MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(9));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo9MouseClicked
 
     private void escudo10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo10MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(10));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo10MouseClicked
 
     private void escudo11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo11MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(11));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo11MouseClicked
 
     private void escudo12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo12MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(12));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo12MouseClicked
 
     private void escudo13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_escudo13MouseClicked
-        vistaHome vista = new vistaHome(thisFrame, appConfig);
-        ShowPanel(vista);
+        try {
+            vistaHome vista = new vistaHome(thisFrame, data.getJSONObject(13));
+            ShowPanel(vista);
+        } catch (JSONException ex) {
+            Logger.getLogger(launcherBase.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_escudo13MouseClicked
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

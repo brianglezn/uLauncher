@@ -3,9 +3,11 @@ package Launcher;
 import Launcher.helpers.GameConfig;
 
 import java.awt.Image;
+import java.util.Arrays;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
+import org.json.JSONObject;
 
 public class vistaGame extends javax.swing.JPanel {
 
@@ -18,6 +20,17 @@ public class vistaGame extends javax.swing.JPanel {
         txtTitle.setText(config.getTitle());
         txtDescription.setText(config.getDescription());
         updateImages();
+    }
+
+    // Actualizar todas las imágenes según el índice actual
+    private void updateImages() {
+        int preIndex = (currentImageIndex - 1 + imagePaths.length) % imagePaths.length;
+        int postIndex = (currentImageIndex + 1) % imagePaths.length;
+
+        SetImageLabelPrincipal(imgCarruselPrincipal, imagePaths[currentImageIndex]);
+        SetImageLabelSecundario(imgCarruselPre, imagePaths[preIndex]);
+        SetImageLabelSecundario(imgCarruselPost, imagePaths[postIndex]);
+        updateCarruselButtons(); // Aquí también se actualizan los botones de navegación del carrusel
     }
 
     // Método para establecer la imagen principal
@@ -42,17 +55,6 @@ public class vistaGame extends javax.swing.JPanel {
         Icon icon = new ImageIcon(image.getImage().getScaledInstance(labelName.getWidth(), labelName.getHeight(), Image.SCALE_DEFAULT));
         labelName.setIcon(icon);
         this.repaint();
-    }
-
-    // Actualizar todas las imágenes según el índice actual
-    private void updateImages() {
-        int preIndex = (currentImageIndex - 1 + imagePaths.length) % imagePaths.length;
-        int postIndex = (currentImageIndex + 1) % imagePaths.length;
-
-        SetImageLabelPrincipal(imgCarruselPrincipal, imagePaths[currentImageIndex]);
-        SetImageLabelSecundario(imgCarruselPre, imagePaths[preIndex]);
-        SetImageLabelSecundario(imgCarruselPost, imagePaths[postIndex]);
-        updateCarruselButtons(); // Aquí también se actualizan los botones de navegación del carrusel
     }
 
     // Actualizar el estado de los botones de navegación del carrusel según la imagen actual
