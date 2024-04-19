@@ -35,11 +35,6 @@ public class vistaHome extends javax.swing.JPanel {
             }
 
             configs[i] = new GameConfig(title, description, imagePaths);
-
-            System.out.println("Loaded image paths for game: " + title);
-            for (String path : imagePaths) {
-                System.out.println(path);
-            }
         }
     }
 
