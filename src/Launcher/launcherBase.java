@@ -96,7 +96,7 @@ public class launcherBase extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         panelEscudos.setOpaque(false);
-        panelEscudos.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 10, 5));
+        panelEscudos.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 7, 5));
 
         escudo0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazBase/Escudos/LauncherButton0.png"))); // NOI18N
         escudo0.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
