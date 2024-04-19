@@ -5,36 +5,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 1",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 1",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 1",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 1",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 1",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 1",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -47,36 +53,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 2",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 2",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 2",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 2",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 2",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 2",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -89,36 +101,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 3",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 3",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 3",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 3",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 3",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 3",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -131,36 +149,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 4",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 4",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 4",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 4",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 4",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 4",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -173,36 +197,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 5",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 5",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 5",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 5",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 5",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 5",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -215,36 +245,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 6",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 6",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 6",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 6",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 6",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 6",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -257,36 +293,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 7",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 7",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 7",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 7",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 7",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 7",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -299,36 +341,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 8",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 8",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 8",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 8",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 8",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 8",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -341,36 +389,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 9",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 9",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 9",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 9",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 9",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 9",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -383,36 +437,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 10",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 10",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 10",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 10",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 10",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 10",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -425,36 +485,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 11",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 11",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 11",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 11",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 11",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 11",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -467,36 +533,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 12",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 12",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 12",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 12",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 12",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 12",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -509,36 +581,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 13",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 13",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 13",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 13",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 13",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 13",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
@@ -551,36 +629,42 @@
                 [
                     {
                         "titulo": "Embarque y desembarque en helicoptero 14",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton0.png",
                         "imagen": "Embarque",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Protocolo ante una hemorragia externa 14",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton1.png",
                         "imagen": "Hemorragia",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Maniobras de extinción según la instalación 14",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton2.png",
                         "imagen": "Extincion",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Tipología y características de los EPIs 14",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton3.png",
                         "imagen": "EPIS",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Señalización a helicóptero desde tierra 14",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton4.png",
                         "imagen": "Helicoptero",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
                     },
                     {
                         "titulo": "Rescate en ascensor 14",
+                        "portada": "src/images/InterfazHome/Miniaturas simuladores/HomeButton5.png",
                         "imagen": "Ascensor",
                         "ruta": "src/Juego/CampoPracticas_EPIS.exe",
                         "descripcion": "<html>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></html>"
