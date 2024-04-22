@@ -47,7 +47,6 @@ public class vistaHome extends javax.swing.JPanel {
 
     // Método para el click en cada escudo
     private void setupHomeBtn() {
-        JPanel[] homePanels = {homePanel0, homePanel1, homePanel2, homePanel3, homePanel4, homePanel5};
         JLabel[] homeBtns = {HomeButton0, HomeButton1, HomeButton2, HomeButton3, HomeButton4, HomeButton5};
         String resourceBasePath = "/images/InterfazHome/Miniaturas simuladores/HomeButton";
 
@@ -55,7 +54,7 @@ public class vistaHome extends javax.swing.JPanel {
             homeBtns[i].setIcon(new javax.swing.ImageIcon(getClass().getResource(resourceBasePath + i + ".png")));
             homeBtns[i].setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
             int finalI = i;
-            homePanels[i].addMouseListener(new java.awt.event.MouseAdapter() {
+            homeBtns[i].addMouseListener(new java.awt.event.MouseAdapter() {
                 public void mouseClicked(java.awt.event.MouseEvent evt) {
                     homePanelClicked(evt, finalI);
                 }
