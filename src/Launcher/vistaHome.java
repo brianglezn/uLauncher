@@ -1,6 +1,8 @@
 package Launcher;
 
 import Launcher.helpers.GameConfig;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -16,6 +18,7 @@ public class vistaHome extends javax.swing.JPanel {
         this.jsonData = data;
         initComponents();
         initializeGameConfigs();
+        setupHomeBtn();
     }
 
     // Método para inicializar las configuraciones de los juegos
@@ -36,6 +39,28 @@ public class vistaHome extends javax.swing.JPanel {
 
             configs[i] = new GameConfig(title, description, imagePaths);
         }
+    }
+
+    private void setupHomeBtn() {
+        JPanel[] homePanels = {homePanel0, homePanel1, homePanel2, homePanel3, homePanel4, homePanel5};
+        JLabel[] homeBtns = {homeBtn0, homeBtn1, homeBtn2, homeBtn3, homeBtn4, homeBtn5};
+        String resourceBasePath = "/images/InterfazHome/Miniaturas simuladores/HomeButton";
+
+        for (int i = 0; i < homeBtns.length; i++) {
+            homeBtns[i].setIcon(new javax.swing.ImageIcon(getClass().getResource(resourceBasePath + i + ".png")));
+            homeBtns[i].setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+            int finalI = i;
+            homePanels[i].addMouseListener(new java.awt.event.MouseAdapter() {
+                public void mouseClicked(java.awt.event.MouseEvent evt) {
+                    homePanelClicked(evt, finalI);
+                }
+            });
+        }
+    }
+
+    private void homePanelClicked(java.awt.event.MouseEvent evt, int panelIndex) {
+        vistaGame vista = new vistaGame(configs[panelIndex]);
+        mainFrame.ShowPanel(vista);
     }
 
     @SuppressWarnings("unchecked")
@@ -71,11 +96,6 @@ public class vistaHome extends javax.swing.JPanel {
         jPanel1.setLayout(new java.awt.GridLayout(2, 3));
 
         homePanel0.setOpaque(false);
-        homePanel0.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                homePanel0MouseClicked(evt);
-            }
-        });
 
         homeBtn0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton0.png"))); // NOI18N
         homeBtn0.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -104,11 +124,6 @@ public class vistaHome extends javax.swing.JPanel {
         jPanel1.add(homePanel0);
 
         homePanel1.setOpaque(false);
-        homePanel1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                homePanel1MouseClicked(evt);
-            }
-        });
 
         homeBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton1.png"))); // NOI18N
         homeBtn1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -137,11 +152,6 @@ public class vistaHome extends javax.swing.JPanel {
         jPanel1.add(homePanel1);
 
         homePanel2.setOpaque(false);
-        homePanel2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                homePanel2MouseClicked(evt);
-            }
-        });
 
         homeBtn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton2.png"))); // NOI18N
         homeBtn2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -170,11 +180,6 @@ public class vistaHome extends javax.swing.JPanel {
         jPanel1.add(homePanel2);
 
         homePanel3.setOpaque(false);
-        homePanel3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                homePanel3MouseClicked(evt);
-            }
-        });
 
         homeBtn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton3.png"))); // NOI18N
         homeBtn3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -203,11 +208,6 @@ public class vistaHome extends javax.swing.JPanel {
         jPanel1.add(homePanel3);
 
         homePanel4.setOpaque(false);
-        homePanel4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                homePanel4MouseClicked(evt);
-            }
-        });
 
         homeBtn4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton4.png"))); // NOI18N
         homeBtn4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -236,11 +236,6 @@ public class vistaHome extends javax.swing.JPanel {
         jPanel1.add(homePanel4);
 
         homePanel5.setOpaque(false);
-        homePanel5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                homePanel5MouseClicked(evt);
-            }
-        });
 
         homeBtn5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazHome/Miniaturas simuladores/HomeButton5.png"))); // NOI18N
         homeBtn5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -279,36 +274,6 @@ public class vistaHome extends javax.swing.JPanel {
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
-
-    private void homePanel0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel0MouseClicked
-        vistaGame vista = new vistaGame(configs[0]);
-        mainFrame.ShowPanel(vista);
-    }//GEN-LAST:event_homePanel0MouseClicked
-
-    private void homePanel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel1MouseClicked
-        vistaGame vista = new vistaGame(configs[1]);
-        mainFrame.ShowPanel(vista);
-    }//GEN-LAST:event_homePanel1MouseClicked
-
-    private void homePanel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel2MouseClicked
-        vistaGame vista = new vistaGame(configs[2]);
-        mainFrame.ShowPanel(vista);
-    }//GEN-LAST:event_homePanel2MouseClicked
-
-    private void homePanel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel3MouseClicked
-        vistaGame vista = new vistaGame(configs[3]);
-        mainFrame.ShowPanel(vista);
-    }//GEN-LAST:event_homePanel3MouseClicked
-
-    private void homePanel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel4MouseClicked
-        vistaGame vista = new vistaGame(configs[4]);
-        mainFrame.ShowPanel(vista);
-    }//GEN-LAST:event_homePanel4MouseClicked
-
-    private void homePanel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_homePanel5MouseClicked
-        vistaGame vista = new vistaGame(configs[5]);
-        mainFrame.ShowPanel(vista);
-    }//GEN-LAST:event_homePanel5MouseClicked
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

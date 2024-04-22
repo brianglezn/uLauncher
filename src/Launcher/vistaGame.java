@@ -3,16 +3,16 @@ package Launcher;
 import Launcher.helpers.GameConfig;
 
 import java.awt.Image;
-import java.util.Arrays;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
-import org.json.JSONObject;
 
 public class vistaGame extends javax.swing.JPanel {
 
     private int currentImageIndex = 0;
     private String[] imagePaths;
+    private ImageIcon iconoNormal;
+    private ImageIcon iconoEscalado;
 
     public vistaGame(GameConfig config) {
         initComponents();
@@ -20,6 +20,7 @@ public class vistaGame extends javax.swing.JPanel {
         txtTitle.setText(config.getTitle());
         txtDescription.setText(config.getDescription());
         updateImages();
+        animeComenzar();
     }
 
     // Actualizar todas las imágenes según el índice actual
@@ -82,6 +83,27 @@ public class vistaGame extends javax.swing.JPanel {
                 btnCarrusel4.setIcon(new ImageIcon(getClass().getResource("/images/InterfazGame/PuntoCarruselFilled.png")));
                 break;
         }
+    }
+
+    private void animeComenzar() {
+        Image imgOriginal = new ImageIcon(getClass().getResource("/images/InterfazGame/Comenzar.png")).getImage();
+        iconoNormal = new ImageIcon(imgOriginal);
+        double escala = 0.98;
+        int anchoEscalado = (int) (iconoNormal.getIconWidth() * escala);
+        int altoEscalado = (int) (iconoNormal.getIconHeight() * escala);
+        Image imgEscalada = imgOriginal.getScaledInstance(anchoEscalado, altoEscalado, Image.SCALE_SMOOTH);
+        iconoEscalado = new ImageIcon(imgEscalada);
+
+        btnComenzar.setIcon(iconoNormal);
+        btnComenzar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnComenzar.setIcon(iconoEscalado);
+            }
+
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnComenzar.setIcon(iconoNormal);
+            }
+        });
     }
 
     @SuppressWarnings("unchecked")

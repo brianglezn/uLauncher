@@ -70,9 +70,6 @@
           <Properties>
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="homePanel0MouseClicked"/>
-          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
@@ -117,9 +114,6 @@
           <Properties>
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="homePanel1MouseClicked"/>
-          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
@@ -164,9 +158,6 @@
           <Properties>
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="homePanel2MouseClicked"/>
-          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
@@ -211,9 +202,6 @@
           <Properties>
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="homePanel3MouseClicked"/>
-          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
@@ -258,9 +246,6 @@
           <Properties>
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="homePanel4MouseClicked"/>
-          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
@@ -305,9 +290,6 @@
           <Properties>
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
-          <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="homePanel5MouseClicked"/>
-          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
