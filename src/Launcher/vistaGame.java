@@ -85,6 +85,7 @@ public class vistaGame extends javax.swing.JPanel {
         }
     }
 
+    // Método para efecto Hover en btn comenzar
     private void animeComenzar() {
         Image imgOriginal = new ImageIcon(getClass().getResource("/images/InterfazGame/Comenzar.png")).getImage();
         iconoNormal = new ImageIcon(imgOriginal);

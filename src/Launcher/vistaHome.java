@@ -41,6 +41,7 @@ public class vistaHome extends javax.swing.JPanel {
         }
     }
 
+    // Método para el click en cada escudo
     private void setupHomeBtn() {
         JPanel[] homePanels = {homePanel0, homePanel1, homePanel2, homePanel3, homePanel4, homePanel5};
         JLabel[] homeBtns = {homeBtn0, homeBtn1, homeBtn2, homeBtn3, homeBtn4, homeBtn5};

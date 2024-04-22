@@ -32,6 +32,14 @@ public class launcherBase extends javax.swing.JFrame {
         }
     }
 
+    public static void main(String args[]) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new launcherBase().setVisible(true);
+            }
+        });
+    }
+
     // Cargar datos desde el archivo
     private void loadData() throws JSONException {
         try {
@@ -54,14 +62,7 @@ public class launcherBase extends javax.swing.JFrame {
         content.repaint();
     }
 
-    public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new launcherBase().setVisible(true);
-            }
-        });
-    }
-
+    // Métodos para efecto hover en los escudos
     private void animeEscudos(JLabel label, double scale) {
         applyEscudoName();
         String imagePath = "/images/InterfazBase/Escudos/" + label.getName() + ".png";
@@ -112,6 +113,7 @@ public class launcherBase extends javax.swing.JFrame {
         }
     }
 
+    // Métodos para el click en cada escudo
     private void assignClickEvents() {
         JLabel[] buttons = {
             LauncherButton0, LauncherButton1, LauncherButton2, LauncherButton3,
@@ -121,7 +123,7 @@ public class launcherBase extends javax.swing.JFrame {
         };
 
         for (int i = 0; i < buttons.length; i++) {
-            int index = i; // Variable final para uso en lambda
+            int index = i;
             buttons[i].addMouseListener(new java.awt.event.MouseAdapter() {
                 public void mouseClicked(java.awt.event.MouseEvent evt) {
                     launcherButtonClicked(index);
