@@ -89,7 +89,7 @@ public class vistaGame extends javax.swing.JPanel {
     private void animeComenzar() {
         Image imgOriginal = new ImageIcon(getClass().getResource("/images/InterfazGame/Comenzar.png")).getImage();
         iconoNormal = new ImageIcon(imgOriginal);
-        double escala = 0.98;
+        double escala = 1.10;
         int anchoEscalado = (int) (iconoNormal.getIconWidth() * escala);
         int altoEscalado = (int) (iconoNormal.getIconHeight() * escala);
         Image imgEscalada = imgOriginal.getScaledInstance(anchoEscalado, altoEscalado, Image.SCALE_SMOOTH);
@@ -125,6 +125,7 @@ public class vistaGame extends javax.swing.JPanel {
         imgCarruselPrincipal = new javax.swing.JLabel();
         imgCarruselPre = new javax.swing.JLabel();
         imgCarruselPost = new javax.swing.JLabel();
+        panelBtnComenzar = new javax.swing.JPanel();
         btnComenzar = new javax.swing.JLabel();
 
         setMaximumSize(new java.awt.Dimension(1550, 880));
@@ -220,6 +221,8 @@ public class vistaGame extends javax.swing.JPanel {
         jPanel1.add(imgCarruselPre, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 60, 630, 370));
         jPanel1.add(imgCarruselPost, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 60, 630, 370));
 
+        panelBtnComenzar.setOpaque(false);
+
         btnComenzar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/InterfazGame/Comenzar.png"))); // NOI18N
         btnComenzar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnComenzar.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -233,7 +236,29 @@ public class vistaGame extends javax.swing.JPanel {
                 btnComenzarMouseExited(evt);
             }
         });
-        jPanel1.add(btnComenzar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 800, -1, 50));
+
+        javax.swing.GroupLayout panelBtnComenzarLayout = new javax.swing.GroupLayout(panelBtnComenzar);
+        panelBtnComenzar.setLayout(panelBtnComenzarLayout);
+        panelBtnComenzarLayout.setHorizontalGroup(
+            panelBtnComenzarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 330, Short.MAX_VALUE)
+            .addGroup(panelBtnComenzarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panelBtnComenzarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(btnComenzar)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        panelBtnComenzarLayout.setVerticalGroup(
+            panelBtnComenzarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 130, Short.MAX_VALUE)
+            .addGroup(panelBtnComenzarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panelBtnComenzarLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(btnComenzar, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+
+        jPanel1.add(panelBtnComenzar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1220, 750, 330, 130));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -309,6 +334,7 @@ public class vistaGame extends javax.swing.JPanel {
     private javax.swing.JLabel imgCarruselPre;
     private javax.swing.JLabel imgCarruselPrincipal;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel panelBtnComenzar;
     private javax.swing.JLabel txtDescription;
     private javax.swing.JLabel txtSeparador;
     private javax.swing.JLabel txtTitle;
