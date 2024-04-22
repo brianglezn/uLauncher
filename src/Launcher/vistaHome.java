@@ -68,7 +68,7 @@ public class vistaHome extends javax.swing.JPanel {
         mainFrame.ShowPanel(vista);
     }
 
-    // Método para el hover en cada homeBtn 
+    // Métodos para el hover en cada homeBtn 
     private void applyHoverEffects() {
         JLabel[] buttons = {HomeButton0, HomeButton1, HomeButton2, HomeButton3, HomeButton4, HomeButton5};
         for (int i = 0; i < buttons.length; i++) {
