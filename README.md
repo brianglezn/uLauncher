@@ -1,2 +1,1 @@
-# uLauncher
- Launcher para Universae
+Launcher Multiplataforma para UNIVERSAE
